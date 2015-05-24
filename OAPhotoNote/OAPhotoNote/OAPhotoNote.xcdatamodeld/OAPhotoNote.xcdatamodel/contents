@@ -1,4 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BookCategories" representedClassName="BookCategories" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photoNotebooks" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotoNotebook" inverseName="bookCategory" inverseEntity="PhotoNotebook" syncable="YES"/>
+    </entity>
+    <entity name="HashTag" representedClassName="HashTag" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photoNoteObject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OAPhotoNoteObject" inverseName="hashTags" inverseEntity="OAPhotoNoteObject" syncable="YES"/>
+    </entity>
+    <entity name="NoteProperty" representedClassName="NoteProperty" syncable="YES">
+        <attribute name="isNeedDisplay" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="propertyKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="propertyString" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photoNoteObject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OAPhotoNoteObject" inverseName="noteProperties" inverseEntity="OAPhotoNoteObject" syncable="YES"/>
+        <relationship name="propertyView" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PropertyView" inverseName="noteProperty" inverseEntity="PropertyView" syncable="YES"/>
+    </entity>
+    <entity name="OAPhotoNoteObject" representedClassName="OAPhotoNoteObject" isAbstract="YES" syncable="YES">
+        <attribute name="backgroundColor" optional="YES" attributeType="Transformable" valueTransformerName="UIColor" syncable="YES"/>
+        <attribute name="contentDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="hashTags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HashTag" inverseName="photoNoteObject" inverseEntity="HashTag" syncable="YES"/>
+        <relationship name="noteProperties" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="NoteProperty" inverseName="photoNoteObject" inverseEntity="NoteProperty" syncable="YES"/>
+    </entity>
+    <entity name="PhotoNote" representedClassName="PhotoNote" parentEntity="OAPhotoNoteObject" syncable="YES">
+        <attribute name="imageInfoPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photoNotebook" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotoNotebook" inverseName="photoNotes" inverseEntity="PhotoNotebook" syncable="YES"/>
+    </entity>
+    <entity name="PhotoNotebook" representedClassName="PhotoNotebook" parentEntity="OAPhotoNoteObject" syncable="YES">
+        <relationship name="bookCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BookCategories" inverseName="photoNotebooks" inverseEntity="BookCategories" syncable="YES"/>
+        <relationship name="photoNotes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PhotoNote" inverseName="photoNotebook" inverseEntity="PhotoNote" syncable="YES"/>
+    </entity>
+    <entity name="PropertyView" representedClassName="PropertyView" syncable="YES">
+        <attribute name="backgroundColor" optional="YES" attributeType="Transformable" valueTransformerName="UIColor" syncable="YES"/>
+        <attribute name="frame" optional="YES" attributeType="Transformable" valueTransformerName="NSValue" syncable="YES"/>
+        <attribute name="textColor" optional="YES" attributeType="Transformable" valueTransformerName="UIColor" syncable="YES"/>
+        <relationship name="noteProperty" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NoteProperty" inverseName="propertyView" inverseEntity="NoteProperty" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HashTag" positionX="45" positionY="-315" width="128" height="73"/>
+        <element name="NoteProperty" positionX="81" positionY="-214" width="128" height="118"/>
+        <element name="OAPhotoNoteObject" positionX="-128" positionY="-259" width="128" height="148"/>
+        <element name="PhotoNote" positionX="-18" positionY="-55" width="128" height="103"/>
+        <element name="PhotoNotebook" positionX="-207" positionY="-70" width="128" height="73"/>
+        <element name="PropertyView" positionX="243" positionY="-85" width="128" height="103"/>
+        <element name="BookCategories" positionX="-398" positionY="-171" width="128" height="73"/>
+    </elements>
 </model>

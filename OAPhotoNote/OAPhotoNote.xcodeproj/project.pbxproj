@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B329A8D1B106FD100FD66DF /* OAPhotoNoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329A8C1B106FD100FD66DF /* OAPhotoNoteObject.m */; };
+		9B329A901B106FD100FD66DF /* HashTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329A8F1B106FD100FD66DF /* HashTag.m */; };
+		9B329A931B106FD200FD66DF /* NoteProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329A921B106FD200FD66DF /* NoteProperty.m */; };
+		9B329A961B106FD200FD66DF /* PhotoNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329A951B106FD200FD66DF /* PhotoNote.m */; };
+		9B329A991B106FD200FD66DF /* PhotoNotebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329A981B106FD200FD66DF /* PhotoNotebook.m */; };
+		9B329A9C1B106FD200FD66DF /* PropertyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329A9B1B106FD200FD66DF /* PropertyView.m */; };
+		9B329A9F1B106FD200FD66DF /* BookCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329A9E1B106FD200FD66DF /* BookCategories.m */; };
+		9B329AA21B1074D200FD66DF /* OATextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329AA11B1074D200FD66DF /* OATextFieldTableViewCell.m */; };
+		9B329AA51B10771B00FD66DF /* NotePropertyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329AA41B10771B00FD66DF /* NotePropertyTableViewController.m */; };
+		9B329AA81B10773F00FD66DF /* CategoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B329AA71B10773F00FD66DF /* CategoryCollectionViewController.m */; };
+		9B434F6F1B118BD2004BA47A /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B434F6E1B118BD2004BA47A /* CategoryCollectionViewCell.m */; };
+		9B96A0E81B08453B001747B8 /* OAPhotoNotebookListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A0E71B08453B001747B8 /* OAPhotoNotebookListCollectionViewController.m */; };
+		9B96A0EB1B085355001747B8 /* OAPhotoNotebookCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A0EA1B085355001747B8 /* OAPhotoNotebookCollectionViewCell.m */; };
+		9B96A0EE1B085758001747B8 /* OAAddPhotoNotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A0ED1B085758001747B8 /* OAAddPhotoNotebookViewController.m */; };
+		9B96A0F11B085C76001747B8 /* OAPhotoNotebookCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A0F01B085C76001747B8 /* OAPhotoNotebookCollectionViewController.m */; };
+		9B96A0F41B0860C9001747B8 /* OAPhotoNoteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B96A0F31B0860C9001747B8 /* OAPhotoNoteCollectionViewCell.m */; };
 		9BAC63C71B023E47002AE0FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC63C61B023E47002AE0FC /* main.m */; };
 		9BAC63CA1B023E47002AE0FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC63C91B023E47002AE0FC /* AppDelegate.m */; };
 		9BAC63CD1B023E47002AE0FC /* OAPhotoNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC63CB1B023E47002AE0FC /* OAPhotoNote.xcdatamodeld */; };
@@ -15,6 +31,7 @@
 		9BAC63D51B023E47002AE0FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC63D41B023E47002AE0FC /* Images.xcassets */; };
 		9BAC63D81B023E47002AE0FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC63D61B023E47002AE0FC /* LaunchScreen.xib */; };
 		9BAC63E41B023E47002AE0FC /* OAPhotoNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC63E31B023E47002AE0FC /* OAPhotoNoteTests.m */; };
+		9BD988431B1001D6004D1D47 /* OADocumentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD988421B1001D6004D1D47 /* OADocumentManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +45,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B329A8B1B106FD100FD66DF /* OAPhotoNoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPhotoNoteObject.h; sourceTree = "<group>"; };
+		9B329A8C1B106FD100FD66DF /* OAPhotoNoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPhotoNoteObject.m; sourceTree = "<group>"; };
+		9B329A8E1B106FD100FD66DF /* HashTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTag.h; sourceTree = "<group>"; };
+		9B329A8F1B106FD100FD66DF /* HashTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTag.m; sourceTree = "<group>"; };
+		9B329A911B106FD200FD66DF /* NoteProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteProperty.h; sourceTree = "<group>"; };
+		9B329A921B106FD200FD66DF /* NoteProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteProperty.m; sourceTree = "<group>"; };
+		9B329A941B106FD200FD66DF /* PhotoNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoNote.h; sourceTree = "<group>"; };
+		9B329A951B106FD200FD66DF /* PhotoNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoNote.m; sourceTree = "<group>"; };
+		9B329A971B106FD200FD66DF /* PhotoNotebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoNotebook.h; sourceTree = "<group>"; };
+		9B329A981B106FD200FD66DF /* PhotoNotebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoNotebook.m; sourceTree = "<group>"; };
+		9B329A9A1B106FD200FD66DF /* PropertyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyView.h; sourceTree = "<group>"; };
+		9B329A9B1B106FD200FD66DF /* PropertyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyView.m; sourceTree = "<group>"; };
+		9B329A9D1B106FD200FD66DF /* BookCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCategories.h; sourceTree = "<group>"; };
+		9B329A9E1B106FD200FD66DF /* BookCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCategories.m; sourceTree = "<group>"; };
+		9B329AA01B1074D200FD66DF /* OATextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATextFieldTableViewCell.h; sourceTree = "<group>"; };
+		9B329AA11B1074D200FD66DF /* OATextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATextFieldTableViewCell.m; sourceTree = "<group>"; };
+		9B329AA31B10771B00FD66DF /* NotePropertyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePropertyTableViewController.h; sourceTree = "<group>"; };
+		9B329AA41B10771B00FD66DF /* NotePropertyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePropertyTableViewController.m; sourceTree = "<group>"; };
+		9B329AA61B10773F00FD66DF /* CategoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewController.h; sourceTree = "<group>"; };
+		9B329AA71B10773F00FD66DF /* CategoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewController.m; sourceTree = "<group>"; };
+		9B434F6D1B118BD2004BA47A /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		9B434F6E1B118BD2004BA47A /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		9B96A0E61B08453B001747B8 /* OAPhotoNotebookListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPhotoNotebookListCollectionViewController.h; sourceTree = "<group>"; };
+		9B96A0E71B08453B001747B8 /* OAPhotoNotebookListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPhotoNotebookListCollectionViewController.m; sourceTree = "<group>"; };
+		9B96A0E91B085355001747B8 /* OAPhotoNotebookCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPhotoNotebookCollectionViewCell.h; sourceTree = "<group>"; };
+		9B96A0EA1B085355001747B8 /* OAPhotoNotebookCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPhotoNotebookCollectionViewCell.m; sourceTree = "<group>"; };
+		9B96A0EC1B085758001747B8 /* OAAddPhotoNotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAddPhotoNotebookViewController.h; sourceTree = "<group>"; };
+		9B96A0ED1B085758001747B8 /* OAAddPhotoNotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAddPhotoNotebookViewController.m; sourceTree = "<group>"; };
+		9B96A0EF1B085C76001747B8 /* OAPhotoNotebookCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPhotoNotebookCollectionViewController.h; sourceTree = "<group>"; };
+		9B96A0F01B085C76001747B8 /* OAPhotoNotebookCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPhotoNotebookCollectionViewController.m; sourceTree = "<group>"; };
+		9B96A0F21B0860C9001747B8 /* OAPhotoNoteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPhotoNoteCollectionViewCell.h; sourceTree = "<group>"; };
+		9B96A0F31B0860C9001747B8 /* OAPhotoNoteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPhotoNoteCollectionViewCell.m; sourceTree = "<group>"; };
 		9BAC63C11B023E47002AE0FC /* OAPhotoNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAPhotoNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAC63C51B023E47002AE0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BAC63C61B023E47002AE0FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +91,8 @@
 		9BAC63DD1B023E47002AE0FC /* OAPhotoNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAPhotoNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAC63E21B023E47002AE0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BAC63E31B023E47002AE0FC /* OAPhotoNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAPhotoNoteTests.m; sourceTree = "<group>"; };
+		9BD988411B1001D6004D1D47 /* OADocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADocumentManager.h; sourceTree = "<group>"; };
+		9BD988421B1001D6004D1D47 /* OADocumentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADocumentManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +113,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B329AA91B10775400FD66DF /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				9B96A0EC1B085758001747B8 /* OAAddPhotoNotebookViewController.h */,
+				9B96A0ED1B085758001747B8 /* OAAddPhotoNotebookViewController.m */,
+				9B329AA31B10771B00FD66DF /* NotePropertyTableViewController.h */,
+				9B329AA41B10771B00FD66DF /* NotePropertyTableViewController.m */,
+				9B329AA61B10773F00FD66DF /* CategoryCollectionViewController.h */,
+				9B329AA71B10773F00FD66DF /* CategoryCollectionViewController.m */,
+			);
+			name = Create;
+			sourceTree = "<group>";
+		};
+		9B96A0E41B084349001747B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BD9883F1B1000E7004D1D47 /* Categories */,
+				9BD988401B10010F004D1D47 /* ManagedObjects */,
+				9BD988441B101D05004D1D47 /* FileManager */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9B96A0E51B08450E001747B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B96A0E61B08453B001747B8 /* OAPhotoNotebookListCollectionViewController.h */,
+				9B96A0E71B08453B001747B8 /* OAPhotoNotebookListCollectionViewController.m */,
+				9B329AA91B10775400FD66DF /* Create */,
+				9B96A0EF1B085C76001747B8 /* OAPhotoNotebookCollectionViewController.h */,
+				9B96A0F01B085C76001747B8 /* OAPhotoNotebookCollectionViewController.m */,
+				9BD988481B105D70004D1D47 /* Cells */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		9BAC63B81B023E47002AE0FC = {
 			isa = PBXGroup;
 			children = (
@@ -85,12 +172,8 @@
 			children = (
 				9BAC63C81B023E47002AE0FC /* AppDelegate.h */,
 				9BAC63C91B023E47002AE0FC /* AppDelegate.m */,
-				9BAC63CE1B023E47002AE0FC /* ViewController.h */,
-				9BAC63CF1B023E47002AE0FC /* ViewController.m */,
-				9BAC63D11B023E47002AE0FC /* Main.storyboard */,
-				9BAC63D41B023E47002AE0FC /* Images.xcassets */,
-				9BAC63D61B023E47002AE0FC /* LaunchScreen.xib */,
-				9BAC63CB1B023E47002AE0FC /* OAPhotoNote.xcdatamodeld */,
+				9B96A0E41B084349001747B8 /* Model */,
+				9B96A0E51B08450E001747B8 /* Controller */,
 				9BAC63C41B023E47002AE0FC /* Supporting Files */,
 			);
 			path = OAPhotoNote;
@@ -99,6 +182,12 @@
 		9BAC63C41B023E47002AE0FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BAC63CB1B023E47002AE0FC /* OAPhotoNote.xcdatamodeld */,
+				9BAC63D11B023E47002AE0FC /* Main.storyboard */,
+				9BAC63D41B023E47002AE0FC /* Images.xcassets */,
+				9BAC63D61B023E47002AE0FC /* LaunchScreen.xib */,
+				9BAC63CE1B023E47002AE0FC /* ViewController.h */,
+				9BAC63CF1B023E47002AE0FC /* ViewController.m */,
 				9BAC63C51B023E47002AE0FC /* Info.plist */,
 				9BAC63C61B023E47002AE0FC /* main.m */,
 			);
@@ -120,6 +209,58 @@
 				9BAC63E21B023E47002AE0FC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BD9883F1B1000E7004D1D47 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		9BD988401B10010F004D1D47 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9B329A8B1B106FD100FD66DF /* OAPhotoNoteObject.h */,
+				9B329A8C1B106FD100FD66DF /* OAPhotoNoteObject.m */,
+				9B329A8E1B106FD100FD66DF /* HashTag.h */,
+				9B329A8F1B106FD100FD66DF /* HashTag.m */,
+				9B329A911B106FD200FD66DF /* NoteProperty.h */,
+				9B329A921B106FD200FD66DF /* NoteProperty.m */,
+				9B329A941B106FD200FD66DF /* PhotoNote.h */,
+				9B329A951B106FD200FD66DF /* PhotoNote.m */,
+				9B329A971B106FD200FD66DF /* PhotoNotebook.h */,
+				9B329A981B106FD200FD66DF /* PhotoNotebook.m */,
+				9B329A9A1B106FD200FD66DF /* PropertyView.h */,
+				9B329A9B1B106FD200FD66DF /* PropertyView.m */,
+				9B329A9D1B106FD200FD66DF /* BookCategories.h */,
+				9B329A9E1B106FD200FD66DF /* BookCategories.m */,
+			);
+			name = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		9BD988441B101D05004D1D47 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				9BD988411B1001D6004D1D47 /* OADocumentManager.h */,
+				9BD988421B1001D6004D1D47 /* OADocumentManager.m */,
+			);
+			name = FileManager;
+			sourceTree = "<group>";
+		};
+		9BD988481B105D70004D1D47 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9B96A0E91B085355001747B8 /* OAPhotoNotebookCollectionViewCell.h */,
+				9B96A0EA1B085355001747B8 /* OAPhotoNotebookCollectionViewCell.m */,
+				9B96A0F21B0860C9001747B8 /* OAPhotoNoteCollectionViewCell.h */,
+				9B96A0F31B0860C9001747B8 /* OAPhotoNoteCollectionViewCell.m */,
+				9B329AA01B1074D200FD66DF /* OATextFieldTableViewCell.h */,
+				9B329AA11B1074D200FD66DF /* OATextFieldTableViewCell.m */,
+				9B434F6D1B118BD2004BA47A /* CategoryCollectionViewCell.h */,
+				9B434F6E1B118BD2004BA47A /* CategoryCollectionViewCell.m */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,10 +364,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B96A0EE1B085758001747B8 /* OAAddPhotoNotebookViewController.m in Sources */,
+				9B329AA21B1074D200FD66DF /* OATextFieldTableViewCell.m in Sources */,
 				9BAC63CA1B023E47002AE0FC /* AppDelegate.m in Sources */,
 				9BAC63CD1B023E47002AE0FC /* OAPhotoNote.xcdatamodeld in Sources */,
+				9B329A8D1B106FD100FD66DF /* OAPhotoNoteObject.m in Sources */,
+				9BD988431B1001D6004D1D47 /* OADocumentManager.m in Sources */,
+				9B329AA51B10771B00FD66DF /* NotePropertyTableViewController.m in Sources */,
+				9B329AA81B10773F00FD66DF /* CategoryCollectionViewController.m in Sources */,
+				9B329A901B106FD100FD66DF /* HashTag.m in Sources */,
+				9B329A9F1B106FD200FD66DF /* BookCategories.m in Sources */,
 				9BAC63D01B023E47002AE0FC /* ViewController.m in Sources */,
+				9B96A0E81B08453B001747B8 /* OAPhotoNotebookListCollectionViewController.m in Sources */,
+				9B96A0EB1B085355001747B8 /* OAPhotoNotebookCollectionViewCell.m in Sources */,
+				9B329A931B106FD200FD66DF /* NoteProperty.m in Sources */,
+				9B329A9C1B106FD200FD66DF /* PropertyView.m in Sources */,
+				9B329A961B106FD200FD66DF /* PhotoNote.m in Sources */,
 				9BAC63C71B023E47002AE0FC /* main.m in Sources */,
+				9B96A0F41B0860C9001747B8 /* OAPhotoNoteCollectionViewCell.m in Sources */,
+				9B434F6F1B118BD2004BA47A /* CategoryCollectionViewCell.m in Sources */,
+				9B96A0F11B085C76001747B8 /* OAPhotoNotebookCollectionViewController.m in Sources */,
+				9B329A991B106FD200FD66DF /* PhotoNotebook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OAPhotoNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -365,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OAPhotoNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -423,6 +583,7 @@
 				9BAC63E91B023E47002AE0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BAC63EA1B023E47002AE0FC /* Build configuration list for PBXNativeTarget "OAPhotoNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +592,7 @@
 				9BAC63EC1B023E47002AE0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
